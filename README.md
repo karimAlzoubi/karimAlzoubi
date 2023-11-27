@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<p>I am a computer science student characterized by a profound passion and keen interest in programming and technology. My GitHub profile serves as a comprehensive testament to this commitment, elucidating my skills through a showcase of projects that not only underscore my experience but also reflect my steadfast dedication to the discipline. In the course of my academic journey, I actively engage in coding competitions, hackathons, and open-source communities to expand my knowledge and collaborate with fellow developers.</p>
+<p>Hello! I'm a computer science student characterized by a profound passion and keen interest in programming and technology. My GitHub profile serves as a comprehensive testament to this commitment, elucidating my skills through a showcase of projects that not only underscore my experience but also reflect my steadfast dedication to the discipline. In the course of my academic journey, I actively engage in coding competitions, hackathons, and open-source communities to expand my knowledge and collaborate with fellow developers.</p>
