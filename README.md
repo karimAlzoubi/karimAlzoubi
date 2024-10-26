@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 
 
 ## 
-<p>🎓 Future Aspirations: My future aspirations as a computer science student revolve around pioneering innovative solutions that redefine the technological landscape. I aspire to contribute groundbreaking advancements that leave a lasting impact on the field, leveraging my skills to make a significant contribution in the realm of computer science.</p>
+<p><strong>🎓 Future Aspirations:</strong> My future aspirations as a computer science student revolve around pioneering innovative solutions that redefine the technological landscape. I aspire to contribute groundbreaking advancements that leave a lasting impact on the field, leveraging my skills to make a significant contribution in the realm of computer science.</p>
 
 ##
 <p>🚀 Let's connect to collaborate and shape a beautiful future together! </p>
