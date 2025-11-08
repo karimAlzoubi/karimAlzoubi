@@ -19,16 +19,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      # ---|| هذا هو السطر الذي تم تغييره إلى أداة تعمل ||---
       - name: Generate Pacman Graph
-        uses: Dilaver/github-pacman-contributions-graph@v1.3.0
+        uses: zakaria-chahboun/github-pacman-contributions-graph@v1.3.0
         with:
           user_name: ${{ github.repository_owner }}
           output_dir: dist
-
-      # ---|| الخطوة الجديدة والمهمة للتفتيش ||---
-      - name: List files in the directory
-        run: ls -R
-      # ---|| نهاية الخطوة الجديدة ||---
+      # ---|| نهاية التغيير ||---
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
