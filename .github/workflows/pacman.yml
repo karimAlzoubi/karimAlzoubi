@@ -19,13 +19,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # ---|| هذا هو السطر الذي تم تغييره إلى أداة تعمل ||---
+      # ---|| هذا هو السطر الذي تم تصحيحه باستخدام أداة بديلة تعمل ||---
       - name: Generate Pacman Graph
         uses: zakaria-chahboun/github-pacman-contributions-graph@v1.3.0
         with:
           user_name: ${{ github.repository_owner }}
           output_dir: dist
-      # ---|| نهاية التغيير ||---
+      # ---|| نهاية التصحيح ||---
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
