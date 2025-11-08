@@ -1,4 +1,4 @@
-name: Generate pacman animation
+name: Generate Pacman Animation
 
 on:
   schedule:
@@ -16,32 +16,23 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # الخطوة 1: جلب كود المستودع للوصول إليه
-      - uses: actions/checkout@v3
+      # الخطوة 1: جلب كود المستودع
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      # الخطوة 2: توليد الصورة (كما كانت، ستحفظ في المجلد الرئيسي مؤقتاً)
-      - name: Generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
+      # الخطوة 2: توليد الصورة وحفظها مباشرة في مجلد 'dist'
+      # هذه الأداة أفضل لأننا نحدد لها أين تحفظ الملفات
+      - name: Generate Pacman Graph
+        uses: Dilaver/github-pacman-contributions-graph@v1.3.0
         with:
-          github_user_name: ${{ github.repository_owner }}
+          user_name: ${{ github.repository_owner }}
+          output_dir: dist # <-- هنا نخبرها أن تضع المخرجات في مجلد dist
 
-      # ---|| بداية التعديل المهم ||---
-      
-      # الخطوة 3 (جديدة): إنشاء مجلد اسمه dist
-      - name: Create dist directory
-        run: mkdir -p dist
-
-      # الخطوة 4 (جديدة): نقل الصورة التي تم توليدها إلى مجلد dist
-      - name: Move generated file to dist
-        run: mv pacman-contribution-graph.svg dist/
-        
-      # ---|| نهاية التعديل المهم ||---
-
-      # الخطوة 5: الآن ستقوم هذه الخطوة برفع محتويات مجلد dist بنجاح
+      # الخطوة 3: رفع محتويات مجلد 'dist' إلى فرع 'output'
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: dist # الآن سيجد هذا المجلد والملف بداخله
+          build_dir: dist # <-- هذه الخطوة ستجد المجلد جاهزاً
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
