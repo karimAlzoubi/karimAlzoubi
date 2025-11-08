@@ -1,40 +1,71 @@
-### Mohammad karim Alzoubi 💻
+<h1 align="center">Hi 👋 I'm Mohammad karim Alzoubi</h1>
 
-<!--
-**karimAlzoubi/karimAlzoubi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+###
 
-Here are some ideas to get you started:
+<h2 align="center">AI Engineer | Software Engineer</h2>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+###
 
-## 
-<p><strong>Hello!</strong> I'm a computer science student characterized by a profound passion and keen interest in programming and technology. My GitHub profile serves as a comprehensive testament to this commitment, elucidating my skills through a showcase of projects that not only underscore my experience but also reflect my steadfast dedication to the discipline.</p>
+<p align="left">✨ Creating bugs since ...<br>📚 I'm currently learning ...<br>🎯 Goals: ...<br>🎲 Fun fact: ...</p>
 
-##
-<p><strong>💼 Professional Development:</strong> In the course of my academic journey, I actively participate in coding competitions, hackathons, and open-source communities. This proactive engagement is instrumental in both expanding my knowledge base and fostering collaboration with fellow developers. Through these endeavors, I aim to continually augment my expertise, staying abreast of advancements in the dynamic realm of computer science, and contribute meaningfully to the broader development community.</p>
+###
 
-##
-<p><strong>🦾 Collaborative Spirit:</strong> My GitHub account serves not only as a repository of individual efforts but also as evidence of my collaboration skills. Collaborative spirit is the quintessence of effective teamwork, wherein individuals amalgamate their efforts to attain shared objectives, resulting in outcomes that are both more innovative and impactful.</p>
+<h2 align="left">🌐 Let's Connect</h2>
 
+###
 
-## 
-<p><strong>🎓 Future Aspirations:</strong> My future aspirations as a computer science student revolve around pioneering innovative solutions that redefine the technological landscape. I aspire to contribute groundbreaking advancements that leave a lasting impact on the field, leveraging my skills to make a significant contribution in the realm of computer science.</p>
+<p align="left">I'm always open to collaborating on interesting projects or discussing new ideas. Feel free to reach out to me!</p>
 
-##
-<p>🚀 Let's connect to collaborate and shape a beautiful future together! </p>
-<p>🌐 <strong>My LinkedIn:</strong> <a href="https://www.linkedin.com/in/karimx" target="_blank">www.linkedin.com/in/karimx</a></p>
-<p>📩 <strong>My E-mail:</strong> <a href="mailto:mohammad.karimx@gmail.com">mohammad.karimx@gmail.com</a></p>
+###
 
-<p></p>
+<div align="left">
+  <a href="https://www.linkedin.com/in/karimx/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+  <a href="https://x.com/karimSYz" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+  </a>
+  <a href="mailto:mohammad.karimx@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+  </a>
+</div>
 
-<p></p>
+###
 
-<p></p>
+<h2 align="left">🛠️ Top Technologies & Tools</h2>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="pytorch logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="flutter logo"  />
+</div>
+
+###
+
+<div align="center" style="width: 100%">
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@karimAlzoubi/0">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@karimAlzoubi/0" alt="Medium post 1"  />
+  </a>
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@karimAlzoubi/1">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@karimAlzoubi/1" alt="Medium post 2"  />
+  </a>
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@karimAlzoubi/2">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@karimAlzoubi/2" alt="Medium post 3"  />
+  </a>
+</div>
+
+###
