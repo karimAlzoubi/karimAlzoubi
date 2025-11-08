@@ -1,14 +1,12 @@
-name: Generate snake animation
+name: Generate Pacman Animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
+  schedule:
+    - cron: "0 */12 * * *"
   workflow_dispatch:
-
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -18,14 +16,21 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Pacman Graph
+        uses: Dilaver/github-pacman-contributions-graph@v1.3.0
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
+          user_name: ${{ github.repository_owner }}
+          output_dir: dist
 
+      # ---|| الخطوة الجديدة والمهمة للتفتيش ||---
+      - name: List files in the directory
+        run: ls -R
+      # ---|| نهاية الخطوة الجديدة ||---
 
-      - name: push snake.svg to the output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
